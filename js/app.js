@@ -17,6 +17,7 @@ new Vue({
    },
    methods: {
 
+    
     iniciar(){
         this.life = 100,
         this.monster = 100
@@ -39,7 +40,9 @@ new Vue({
      },
      Monster(){
          this.ataq = 5,10,20
+         if(this.life > 0){
          return this.life = this.life - this.ataq;
+         }
      }
    },
 
