@@ -15,15 +15,17 @@
                 
               
                 <h1>Jogador</h1>
-                <button id="myBtn" class="btn">Escolha seu Heroi</button>
+                <!--<button id="myBtn" class="btn">Escolha seu Heroi</button>-->
 
-
+                
+                
                 <div class="life-bar">
                     <div class="life" :style="{width: life + '%'}">{{ life }}%</div>
                 </div>
                 <div>
                   <img src="img/Bruxaf.png" style="width:300px;height:300px;">
                 </div>
+                
               
                 
               
@@ -54,7 +56,7 @@
         </div>
         <div class="panel logs">
             <ul>
-                <li></li>
+                <li v-for="(log, logg) in logr">{{ logr }}</li>
             </ul>
         </div>
     </div>
