@@ -14,8 +14,6 @@ new Vue({
         return this.life === 0 || this.monster === 0;
     },
 
-   
-
    },
    methods: {
 
