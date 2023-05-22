@@ -32,14 +32,14 @@ new Vue({
         }
      },
      Esp(){
-        this.ataq = 30,10,15
+        this.ataq = 30,10,15;
         if(this.monster > 0){
         this.monster = this.monster - this.ataq;
         
         }
      },
      Ta(){
-        this.ataq = 5,10
+        this.ataq = 5,10;
         if(this.monster > 0){
         this.monster = this.monster - this.ataq;
         
@@ -47,7 +47,7 @@ new Vue({
          
      },
      Monster(){
-         this.ataq = 5,10,20,30,15,25,40,35
+         this.ataq = 5,10,20,30,15,25,40,35;
          if(this.life > 0){
          this.life = this.life - this.ataq;
          
